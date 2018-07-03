@@ -513,26 +513,29 @@ text-decoration:underline;
 .typage a:hover{
 text-decoration:none;
 }
-.typage ul
-{
-    padding-left: 0;
-}
+    .typage ul {
+        padding-left: 0;
+        margin-top: -10px;
+        margin-bottom: 14px;
+    }
+
 .typage ol{
 
 }
 
 
-.typage ul li{
-list-style-type:none;
-font-size:18px;
-margin-bottom: 16px;
-}
-.typage ul li:before{
-    content:'—';
-    color:#bd1e2e;
-    padding-right: 8px;
-
-}
+    .typage ul li {
+        list-style-type: none;
+        font-size: 18px;
+        margin-bottom: 12px;
+    }
+    .typage ul li:before {
+        content: '–';
+        color: #bd1e2e;
+        padding-right: 22px;
+        font-weight: bold;
+        font-size: 22px;
+    }
 
 .bread {
     background-color: #f3f5f9;
@@ -929,21 +932,24 @@ color:#bd1e2e;
 
 blockquote {
     background-color: #ecf0f5;
-    padding: 38px 20px;
+    padding: 38px 20px 38px 97px;
     border: 1px solid rgb(224, 224, 229);
     border-radius: 0;
-    padding-left: 30px;
-    display: flex;
+    display: block;
     margin-bottom: 34px;
     font-size: 18px;
     line-height: 21px;
+    position: relative;
 }
     blockquote:before {
-        content: "\f071";
-        font-size: 32px;
-        color: #d1d3dc;
-        font-family: FontAwesome;
-        padding-right: 37px;
+        background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACUAAAAhCAMAAABp0ZInAAAAMFBMVEUAAADR09zR09zR09zR09zR09zR09zR09zR09zR09zR09zR09zR09zR09zR09zR09whRsrQAAAAD3RSTlMAESIzRFVmd4iZqrvM3e5GKvWZAAAA/klEQVR42oWS7RaDIAxDgUnlQ/D933YSx4Ib1fzQegjtDWJ+tKS61+TNreJ+Kj6Ynm2+rddc22vVTLYtR3u2rFZxhWMxo8r6zFcb9ELpWrnMTGgQPvV61NvMJCOMLS2Agi7HO+RweD32qOgbZvUACvqyA1wJsAGdrmmA9YtRWsUA/+jdj6aTABHo3wN1ZvYHAOP6ju5nAKKv3CIjbbl8EIDBxgBA95x/jmYAR/TBtNCGAIno408nGAMQHSokHgII0aG9yVwDiEl4UgkklOC7YitlY45nayJUo1zda0zAuxuTQxtcI6+aPC4eTv5eOH3/6BI0LfedOo6ErClKO5Y3bt4Y8ICSnYIAAAAASUVORK5CYII=);
+        width: 37px;
+        height: 33px;
+        display: inline-block;
+        float: left;
+        position: absolute;
+        top: 43px;
+        left: 30px;
     }
 
 
