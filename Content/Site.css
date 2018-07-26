@@ -62,10 +62,14 @@ h2 {
     font-weight: bold;
     font-size:20px;
 }
-h3 {
+h1.head3, h3 {
     font-family: Exo2;
-    font-weight:bold;
-    font-size:36px;
+    font-weight: bold;
+    font-size: 36px;
+}
+h1.head3 {
+    margin-bottom: 72px;
+    margin-top: 20px;
 }
 .head_small {
     font-size: 13px;
@@ -297,7 +301,7 @@ font-family:Exo2;
 .about_left p>b
 {
     margin-top: 15px;
-    display: block;
+    /*display: block;*/
     margin-top: 16px;
 }
 .about_left_info a{
@@ -492,6 +496,11 @@ font-family:Exo2;
 font-weight:bold;
 font-size:18px;
 }
+.typage h3{
+    font-family:Exo2;
+    font-weight:bold;
+font-size:24px; 
+}
 .typage img{
 max-width:100%;
 }
@@ -633,15 +642,19 @@ text-decoration:underline;
     border: 1px solid #e0e0e5;
     min-height: 248px;
     max-height: 248px;
+
     margin-bottom: 20px;
     overflow: hidden;
-text-decoration:none!important;
-}
-.category_el img{
-max-width:100%;
-margin:0 auto 10px;
+    text-decoration:none!important;
+
 
 }
+    .category_el img {
+        max-width: 100%;
+        margin: 0 auto 10px;
+        max-height: 152px;
+        display: block;
+    }
 .category_el div{
 text-align:left;
 }
@@ -1072,8 +1085,8 @@ form label {
 }
 
 /*2col menu*/
-.dropdown-menu + .dropdown-menu{
-margin-left:221px;
+.dropdown-menu + .dropdown-menu {
+    margin-left: 287px;
 }
 .dropdown-menu + .dropdown-menu:before{
 background-color: #cd3241;
