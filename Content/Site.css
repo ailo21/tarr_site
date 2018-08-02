@@ -962,7 +962,7 @@ blockquote {
     padding: 38px 20px 38px 97px;
     border: 1px solid rgb(224, 224, 229);
     border-radius: 0;
-    display: block;
+    display: table;
     margin-bottom: 34px;
     font-size: 18px;
     line-height: 21px;
