@@ -1,5 +1,12 @@
 ﻿$(document).ready(function () {
 
+ $('#navbar-collapse').on('show.bs.collapse', function () {
+  $('.navbar-header').addClass('navbar_open');
+})
+ $('#navbar-collapse').on('hidden.bs.collapse', function () {
+  $('.navbar-header').removeClass('navbar_open');
+})
+
     //myCarousel
     $(".carousel").swipe({
 

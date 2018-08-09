@@ -61,7 +61,11 @@
 display:none;
         }
     .navbar-nav > li > .dropdown-menu{
+        padding-top: 13px;
 min-height:200px;
+    }
+    .navbar-nav > li > .dropdown-menu+.dropdown-menu{
+padding-top: 0;
     }
     .review_item:before{
 display:none;
@@ -80,3 +84,16 @@ padding:20px;
     display: block;
 }
 /*}*/
+ul.nav>li {
+    border-bottom: 1px solid rgba(255,255,255,.5);
+}
+.nav > li > a{
+        padding: 17px 15px;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 14px 15px 17px;
+}
+
+.navbar-nav .open .dropdown-menu>li>a{
+            padding: 8px 15px 9px 45px;
+}

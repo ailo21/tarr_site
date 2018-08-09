@@ -1116,4 +1116,27 @@ background-color: #cd3241;
 .article-list {
     margin-bottom: 390px;
 }
+.navbar_open{
+    background-color: #000!important;
+    padding: 13px 0 16px;
+}
+.navbar_open .navbar-brand{
+    display: none!important;
+}
 
+.navbar_open .navbar-toggle{
+    color: #fff;
+}
+.navbar_open i{
+    width: 25px;
+    height: 25px;
+    background-image: url(/content/img/icon/multiply.svg);
+    background-size: contain;
+
+}
+.navbar_open i:before{
+        display: none;
+}
+.navbar_open ul.nav>li{
+    border-bottom: 1px solid #fff;
+}
