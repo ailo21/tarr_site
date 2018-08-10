@@ -1079,7 +1079,8 @@ form label {
     margin-bottom: 20px;
     margin-bottom: 33px;
 }
-.dropdown-menu > li > a:hover {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
     background-color: #cd3241;
 }
 
