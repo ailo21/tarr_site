@@ -1068,7 +1068,8 @@ form label {
     margin-bottom: 20px;
     margin-bottom: 33px;
 }
-.dropdown-menu > li > a:hover {
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
     background-color: #cd3241;
 }
 
@@ -1128,4 +1129,14 @@ background-color: #cd3241;
 }
 .navbar_open ul.nav>li{
     border-bottom: 1px solid #fff;
+}
+.navbar_open{
+    
+}
+.navbar_open+.row .navbar-collapse{
+        
+        
+} 
+.navbar_open+.row .navbar-collapse{
+    max-height: inherit;
 }
