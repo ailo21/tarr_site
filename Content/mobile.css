@@ -1,6 +1,4 @@
-﻿
-
-/*@media only screen and (max-width: 768px) {*/
+﻿/*@media only screen and (max-width: 768px)*/
     .video_left {
         padding: 0 !important;
         float: none !important;
@@ -83,9 +81,9 @@ padding:20px;
     margin-bottom: 40px;
     display: block;
 }
-/*}*/
+
 ul.nav>li {
-    border-bottom: 1px solid rgba(255,255,255,.5);
+    border-bottom: 1px solid #333;
 }
 .nav > li > a{
         padding: 17px 15px;

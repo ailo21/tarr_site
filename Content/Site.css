@@ -939,20 +939,10 @@ color:#bd1e2e;
     margin-right: 5px;
 }
 
-.yakor:first-child {
-    margin-top: -6px;
-}
-.yakor:last-child {
-    margin-bottom: -5px;
-}
 
-
-.yakor {
-    display: table;
+.yakor {    
     text-decoration: none !important;
-    border-bottom: 1px dashed #bd1e2e;
-    margin-bottom: 16px;
-
+    border-bottom: 1px dashed #bd1e2e;  
 }
 
 
@@ -1130,7 +1120,7 @@ background-color: #cd3241;
 .navbar_open i{
     width: 25px;
     height: 25px;
-    background-image: url(/content/img/icon/multiply.svg);
+    background-image: url(/Content/img/icon/multiply.svg);
     background-size: contain;
 
 }
